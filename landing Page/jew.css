@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #e74c3c;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.jewelry-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.jewelry-card {
+    max-width: 300px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.jewelry-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #e74c3c;
+}
+
+p {
+    color: #7f8c8d;
+}
+
+footer {
+    background-color: #e74c3c;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
